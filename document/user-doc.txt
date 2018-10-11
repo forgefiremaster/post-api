@@ -1,0 +1,139 @@
+
+USER
+
+Method : GET
+Headers : Authorization
+Url : http://localhost:4000/user
+
+response : 200
+[
+  {
+      "name" : "nome",
+      "username" : "username",
+      "email" : "email",
+      "phone" : "phone",
+      "facebook" : "faceboobk"
+      "followers" : [
+          {
+              "name" : "nome",
+              "username" : "username",
+              "email" : "email",
+              "phone" : "phone",
+              "facebook" : "facebook"
+          }
+      ],
+      following : [
+        {
+          "name" : "nome",
+          "username" : "username",
+          "email" : "email",
+          "phone" : "phone",
+          "facebook" : "faceboobk"
+        }
+      ]
+  }
+]
+
+--------------------------------------------------------------------------------------
+Method : POST
+Headers : Authorization
+Url : http://localhost:4000/user
+
+request :
+  body
+    {
+        "name" : "nome",
+        "username" : "username",
+        "email" : "email",
+        "password" : "password"
+        "phone" : "phone",
+        "facebook" : "faceboobk"
+    }
+
+response : 201
+
+
+--------------------------------------------------------------------------------------
+Method : GET
+Headers : Authorization
+Url : http://localhost:4000/user/{username}
+response : 200
+    {
+        "name" : "nome",
+        "username" : "username",
+        "email" : "email",
+        "phone" : "phone",
+        "facebook" : "faceboobk"
+        "followers" : [
+            {
+                "name" : "nome",
+                "username" : "username",
+                "email" : "email",
+                "phone" : "phone",
+                "facebook" : "facebook"
+            }
+        ],
+        following : [
+          {
+            "name" : "nome",
+            "username" : "username",
+            "email" : "email",
+            "phone" : "phone",
+            "facebook" : "faceboobk"
+          }
+        ]
+    }
+
+
+-------------------------------------------------------------------------------------
+Method : POST
+Headers : Authorization
+Url : http://localhost:4000/user/authenticate
+
+request :
+  body
+    {
+        "username" : "username",
+        "password" : "password"
+    }
+
+  response: 200
+  {
+  "token": "",
+  "data": {
+      "username": "",
+      "email": ""
+    }
+  }
+
+
+--------------------------------------------------------------------------------------
+Method : GET
+Headers : Authorization
+Url : http://localhost:4000/user/refresh-token
+
+response: 200
+{
+"token": "",
+"data": {
+    "username": "",
+    "email": ""
+  }
+}
+
+
+--------------------------------------------------------------------------------------
+Method : PUT
+Headers : Authorization
+Url : http://localhost:4000/user/refresh-token
+
+request :
+  body
+    {
+        "name" : "nome",
+        "username" : "username",
+        "phone" : "phone",
+        "facebook" : "faceboobk"
+    }
+
+response : 201

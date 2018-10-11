@@ -1,0 +1,35 @@
+[Info  - 6:52:24 PM] Linter is running.
+[Info  - 6:52:25 PM] 
+Failed to load the TSLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/controllers/post-controller.js
+
+To use TSLint in this workspace please install tslint using 'npm install tslint' or globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen the workspace after installing tslint.
+[Info  - 6:52:48 PM] 
+Failed to load the TSLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/repositories/post-repository.js
+
+To use TSLint in this workspace please install tslint using 'npm install tslint' or globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen the workspace after installing tslint.
+[Info  - 6:52:48 PM] Failed to load the TSLint library for the document /root/.cache/typescript/2.9/node_modules/@types/mongoose/index.d.ts
+To use TSLint for single file install tslint globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen VS Code after installing tslint.
+[Info  - 7:01:11 PM] 
+Failed to load the TSLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/repositories/post-repository.js
+
+To use TSLint in this workspace please install tslint using 'npm install tslint' or globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen the workspace after installing tslint.
+[Info  - 7:03:31 PM] 
+Failed to load the TSLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/node_modules/mongoose/lib/services/document/compile.js
+
+To use TSLint in this workspace please install tslint using 'npm install tslint' or globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen the workspace after installing tslint.
+[Info  - 7:03:33 PM] 
+Failed to load the TSLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/node_modules/mongoose/lib/document.js
+
+To use TSLint in this workspace please install tslint using 'npm install tslint' or globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen the workspace after installing tslint.

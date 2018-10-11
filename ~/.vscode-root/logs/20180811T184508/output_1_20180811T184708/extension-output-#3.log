@@ -1,0 +1,5 @@
+[ 18:47:24 | command ] git rev-parse --show-toplevel
+[ 18:47:25 | error ] Error: fatal: Not a git repository (or any parent up to mount point /home/lucas)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[ 18:47:25 | info ] File "/home/lucas/Documents/desenvolvimento/react-native/ListaDePostsRedux/src/actions/post/posts_action.js" is not a decendant of a git repository
+[ 18:47:25 | info ] File "/home/lucas/Documents/desenvolvimento/react-native/ListaDePostsRedux/src/actions/post/posts_action.js" is not a decendant of a git repository

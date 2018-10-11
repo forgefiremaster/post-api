@@ -1,0 +1,34 @@
+Stream
+
+Method : POST
+Headers : Authorization
+Url : http://localhost:4000/stream/info
+
+request :
+body:
+   {
+      "id" : "id_stream",
+      "idUser" : "id usuário que pertence o stream"
+   }
+
+response : 200
+  {
+    "mime" : "",
+    "url", "",
+    "dir", "",
+    "publico" : true,
+    "user" : ""
+  }
+
+  ------------------------------------------------------------------------------
+  Method : POST
+  Headers : Authorization
+  Url : http://localhost:4000/stream
+
+  request :
+  body:
+    {
+      "mime" : "extensão",
+      "content" : "conteúdo base64",
+      "publico" : true
+    }

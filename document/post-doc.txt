@@ -1,0 +1,37 @@
+POST
+
+Method : POST
+Headers : Authorization
+Url : http://localhost:4000/post
+
+request :
+body
+  {
+    "title" : "titulo",
+    "description" : "descrição",
+    "tags" : ["tags"],
+    "items" : ["stream" : "ids streamns"],
+    "location" : {
+      "lat" : 14.00000,
+      "lng" : 15.00000
+    },
+    "publico" : true
+  }
+
+  response : 200
+  {
+    "title" : "titulo",
+    "description" : "descrição",
+    "tags" : [{"tags"}],
+    "items" : [{"ids streamns"}],
+    "location" : {
+      "lat" : 14.00000,
+      "lng" : 15.00000
+    },
+    "createDate" : "2011-10-05T14:48:00.000Z" ,
+    "user" : "id usuário que envoiu o post",
+    "publico" : true,
+    "likes" : [{
+      "user" : "id usuário que curtiu"
+    }]
+  }

@@ -1,0 +1,9 @@
+[ 18:45:41 | command ] git rev-parse --show-toplevel
+[ 18:45:42 | error ] Error: fatal: Not a git repository (or any parent up to mount point /home/lucas)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[ 18:45:42 | info ] File "/home/lucas/Documents/desenvolvimento/node/post-api/src/controllers/post-controller.js" is not a decendant of a git repository
+[ 18:46:41 | command ] git rev-parse --show-toplevel
+[ 18:46:41 | error ] Error: fatal: Not a git repository (or any parent up to mount point /home/lucas)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[ 18:46:41 | info ] File "/home/lucas/Documents/desenvolvimento/node/post-api/src/validators/post-validator.js" is not a decendant of a git repository
+[ 18:46:41 | info ] File "/home/lucas/Documents/desenvolvimento/node/post-api/src/validators/post-validator.js" is not a decendant of a git repository

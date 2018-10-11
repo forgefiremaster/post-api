@@ -1,0 +1,46 @@
+[Info  - 6:52:24 PM] ESLint server is running.
+[Info  - 6:52:24 PM] 
+Failed to load the ESLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/controllers/post-controller.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder post-api
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder post-api by executing the 'Disable ESLint' command.
+[Info  - 6:52:47 PM] 
+Failed to load the ESLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/repositories/post-repository.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder post-api
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder post-api by executing the 'Disable ESLint' command.
+[Info  - 7:01:10 PM] 
+Failed to load the ESLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/repositories/post-repository.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder post-api
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder post-api by executing the 'Disable ESLint' command.
+[Info  - 7:03:31 PM] 
+Failed to load the ESLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/node_modules/mongoose/lib/services/document/compile.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder post-api
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder post-api by executing the 'Disable ESLint' command.
+[Info  - 7:03:32 PM] 
+Failed to load the ESLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/node_modules/mongoose/lib/document.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder post-api
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder post-api by executing the 'Disable ESLint' command.

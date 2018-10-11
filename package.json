@@ -1,0 +1,27 @@
+{
+  "name": "post-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "it": "node --inspect ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "guid": "0.0.12",
+    "jsonwebtoken": "^8.3.0",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.7",
+    "swagger-ui-express": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

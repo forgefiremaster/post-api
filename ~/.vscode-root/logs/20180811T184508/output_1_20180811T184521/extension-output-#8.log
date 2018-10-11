@@ -1,0 +1,13 @@
+[Info  - 6:45:44 PM] Linter is running.
+[Info  - 6:45:50 PM] 
+Failed to load the TSLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/controllers/post-controller.js
+
+To use TSLint in this workspace please install tslint using 'npm install tslint' or globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen the workspace after installing tslint.
+[Info  - 6:46:41 PM] 
+Failed to load the TSLint library for the document /home/lucas/Documents/desenvolvimento/node/post-api/src/validators/post-validator.js
+
+To use TSLint in this workspace please install tslint using 'npm install tslint' or globally using 'npm install -g tslint'.
+TSLint has a peer dependency on `typescript`, make sure that `typescript` is installed as well.
+You need to reopen the workspace after installing tslint.
